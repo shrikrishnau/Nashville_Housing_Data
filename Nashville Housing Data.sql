@@ -63,12 +63,11 @@ Where a.PropertyAddress is null
 
 Select PropertyAddress
 From PortfolioProject.dbo.NashvilleHousing
---Where PropertyAddress is null
---order by ParcelID
 
 SELECT
 SUBSTRING(PropertyAddress, 1, CHARINDEX(',', PropertyAddress) -1 ) as Address
-, SUBSTRING(PropertyAddress, CHARINDEX(',', PropertyAddress) + 1 , LEN(PropertyAddress)) as Address
+, SUBSTRING(PropertyAddress, CHARINDEX(',', PropertyAddress) + 1 , LEN(PropertyAddress)) as City
+
 
 From PortfolioProject.dbo.NashvilleHousing
 
@@ -187,18 +186,15 @@ Select *,
 					) row_num
 
 From PortfolioProject.dbo.NashvilleHousing
---order by ParcelID
 )
+
 Select *
 From RowNumCTE
 Where row_num > 1
 Order by PropertyAddress
 
-
-
 Select *
 From PortfolioProject.dbo.NashvilleHousing
-
 
 
 
@@ -216,3 +212,4 @@ ALTER TABLE PortfolioProject.dbo.NashvilleHousing
 DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
 
 
+---------------------------------------------------------------------------------------------------------
