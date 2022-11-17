@@ -1,4 +1,4 @@
-# Nashville_Housing_Data
+# Nashville Housing Data
 
 <p align="center">
  <img src='https://github.com/shrikrishnau/Portfolio/blob/main/images/house.jpg?raw=true' width="900", height="400">
