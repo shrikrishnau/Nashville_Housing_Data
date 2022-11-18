@@ -10,7 +10,7 @@ The Nashville Housing Data has to be sourced from web and cleaned using SQL impl
 
 
 ## About the data set
-* The dataset was sourced from [Nashville Housing Data](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data).
+* The dataset was sourced from Kaggle [Nashville Housing Data](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data).
 * This dataset contains the data of the residential properties of the city of Nashville.
 
 
