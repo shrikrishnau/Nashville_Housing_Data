@@ -6,16 +6,16 @@
 </p>
 
 ## Problem statement
-The World Covid has to be sourced from web, cleaned and analysed using SQL. Produce your insights from the data after analysis.
+The Nashville Housing Data has to be sourced from web and cleaned using SQL implementing different functions in SQL.
 
 
 ## About the data set
 * The dataset was sourced from [Nashville Housing Data](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data).
-* This dataset contains the data of population dead due to COVID and vaccinated population of various countries.
+* This dataset contains the data of the residential properties of the city of Nashville.
 
 
 ## Overall Analysis View
-The aim of this project is to find the projected growth of COVID cases.
+The aim of this project is to clean the data using SQL to make it fit for an easy analysis.
 
 ## Link to Code
 [SQL Code](https://github.com/shrikrishnau/Nashville_Housing_Data/blob/main/Nashville%20Housing%20Data.sql)
@@ -23,23 +23,13 @@ The aim of this project is to find the projected growth of COVID cases.
 ## SQL Skills Used
 * Joins
 * CTE's
-* Temp Tables
 * Windows Functions
 * Aggregate Functions
-* Creating Views
-* Converting Data Types
 
 ## Things learnt from this Project 
-* Learnt to CTE's and Temp Tables.
-* Came across a use case for converting data type and implemented it. 
+* Learnt to use CTE's.
+* Learnt to use Partition by clause.
 
-## Some Important insights from the Analysis
-
-* Shawshank Redemption released in 1994 has the highest rating of 9.3 in the list.
-* The 39 Steps released in 1935 has the lowest rating of 7.6 in the list.
-* The highest average voting was for the movies in the list released in the year 1994.
-* The Year 2018 saw the highest average revenue.
-* As per the movies in the list Director Frank Darabont has the highest average rating of 8.95.
 
 
 
